@@ -3,18 +3,17 @@
 @tailwind utilities;
 
 body {
-  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-  background-size: 200% 200%;
-  animation: backgroundAnimation 10s ease infinite;
+  background: url('/background.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: #e0e0e0;
   font-family: 'Orbitron', sans-serif;
+}
+
+.neon-glow {
+  text-shadow: 0 0 5px #ff007f, 0 0 10px #ff007f, 0 0 15px #ff007f, 0 0 20px #ff007f;
 }
 
 @keyframes backgroundAnimation {
   0% { background-position: 0% 0%; }
   100% { background-position: 100% 100%; }
-}
-
-.neon-glow {
-  text-shadow: 0 0 5px #ff007f, 0 0 10px #ff007f, 0 0 15px #ff007f, 0 0 20px #ff007f;
 }

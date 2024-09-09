@@ -14,10 +14,10 @@ const Player = ({ songUrl }) => {
   };
 
   return (
-    <div className="player">
+    <div className="player text-cyberpunkGreen">
       <audio ref={audioRef} src={songUrl}></audio>
       <button
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        className="bg-cyberpunkPink hover:bg-cyberpunkBlue text-white font-bold py-2 px-4 rounded transition-transform transform hover:scale-110"
         onClick={togglePlay}
       >
         {isPlaying ? 'Pause' : 'Play'}

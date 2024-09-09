@@ -2,10 +2,10 @@ import React from 'react';
 
 const ContactPage = () => {
   return (
-    <div className="contact-page container mx-auto mt-10">
-      <h1 className="text-4xl font-bold text-center mb-8">Contact StRaNgErDrEaMeR</h1>
-      <p className="text-lg text-center">
-        Reach out on social media: <a href="https://twitter.com/strangerdreamer" target="_blank" rel="noreferrer">Twitter</a>.
+    <div className="contact-page container mx-auto mt-10 text-center">
+      <h1 className="text-4xl font-bold mb-8 text-cyberpunkPink">Contact StRaNgErDrEaMeR</h1>
+      <p className="text-lg">
+        Reach out on social media: <a href="https://instgram.com/strangerdreameroffical" target="_blank" rel="noreferrer" className="text-cyberpunkGreen hover:underline">Instgram</a>.
       </p>
     </div>
   );

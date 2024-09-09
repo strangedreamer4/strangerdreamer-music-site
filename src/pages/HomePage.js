@@ -14,8 +14,8 @@ const songs = [
 
 const HomePage = () => {
   return (
-    <div className="homepage container mx-auto mt-10">
-      <h1 className="text-4xl font-bold text-center mb-8">StRaNgErDrEaMeR's Music</h1>
+    <div className="homepage container mx-auto mt-10 text-center">
+      <h1 className="text-4xl font-bold mb-8 text-cyberpunkPink neon-glow">StRaNgErDrEaMeR's Music</h1>
       <SongList songs={songs} />
     </div>
   );
